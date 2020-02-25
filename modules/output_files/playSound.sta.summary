@@ -1,0 +1,309 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -20.362
+TNS   : -237.957
+
+Type  : Slow 1100mV 85C Model Setup 'RateDivider:rd0|counter[0]'
+Slack : -5.688
+TNS   : -25187.588
+
+Type  : Slow 1100mV 85C Model Setup 'audioAdapter:aa0|avconf:avc|mI2C_CTRL_CLK'
+Slack : -2.254
+TNS   : -120.276
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[3]'
+Slack : -0.885
+TNS   : -0.885
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[2]'
+Slack : -0.874
+TNS   : -0.874
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[1]'
+Slack : -0.851
+TNS   : -0.851
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[3]'
+Slack : -0.230
+TNS   : -0.230
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[2]'
+Slack : -0.208
+TNS   : -0.208
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[1]'
+Slack : -0.191
+TNS   : -0.191
+
+Type  : Slow 1100mV 85C Model Hold 'RateDivider:rd0|counter[0]'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.375
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'audioAdapter:aa0|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'RateDivider:rd0|counter[0]'
+Slack : -2.174
+TNS   : -21331.029
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[2]'
+Slack : -0.535
+TNS   : -0.929
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[3]'
+Slack : -0.517
+TNS   : -0.911
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'audioAdapter:aa0|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.394
+TNS   : -35.257
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[1]'
+Slack : -0.394
+TNS   : -0.674
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'aa0|Audio_Controller|Audio_Clock|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.872
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -20.477
+TNS   : -234.458
+
+Type  : Slow 1100mV 0C Model Setup 'RateDivider:rd0|counter[0]'
+Slack : -5.273
+TNS   : -23439.411
+
+Type  : Slow 1100mV 0C Model Setup 'audioAdapter:aa0|avconf:avc|mI2C_CTRL_CLK'
+Slack : -2.222
+TNS   : -114.720
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[3]'
+Slack : -0.806
+TNS   : -0.806
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[2]'
+Slack : -0.799
+TNS   : -0.799
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[1]'
+Slack : -0.773
+TNS   : -0.773
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[3]'
+Slack : -0.199
+TNS   : -0.199
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[2]'
+Slack : -0.186
+TNS   : -0.186
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[1]'
+Slack : -0.162
+TNS   : -0.162
+
+Type  : Slow 1100mV 0C Model Hold 'RateDivider:rd0|counter[0]'
+Slack : 0.383
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'audioAdapter:aa0|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'RateDivider:rd0|counter[0]'
+Slack : -2.174
+TNS   : -21530.953
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[3]'
+Slack : -0.472
+TNS   : -0.866
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[2]'
+Slack : -0.463
+TNS   : -0.857
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'audioAdapter:aa0|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.394
+TNS   : -35.032
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[1]'
+Slack : -0.394
+TNS   : -0.751
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'aa0|Audio_Controller|Audio_Clock|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.822
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -11.082
+TNS   : -140.049
+
+Type  : Fast 1100mV 85C Model Setup 'RateDivider:rd0|counter[0]'
+Slack : -3.720
+TNS   : -13690.439
+
+Type  : Fast 1100mV 85C Model Setup 'audioAdapter:aa0|avconf:avc|mI2C_CTRL_CLK'
+Slack : -1.053
+TNS   : -50.775
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[3]'
+Slack : -0.202
+TNS   : -0.202
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[2]'
+Slack : -0.190
+TNS   : -0.190
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[1]'
+Slack : -0.172
+TNS   : -0.172
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[3]'
+Slack : -0.137
+TNS   : -0.137
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[2]'
+Slack : -0.115
+TNS   : -0.115
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[1]'
+Slack : -0.109
+TNS   : -0.109
+
+Type  : Fast 1100mV 85C Model Hold 'audioAdapter:aa0|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'RateDivider:rd0|counter[0]'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'RateDivider:rd0|counter[0]'
+Slack : -2.174
+TNS   : -19001.901
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[2]'
+Slack : -0.470
+TNS   : -0.618
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[3]'
+Slack : -0.460
+TNS   : -0.599
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[1]'
+Slack : -0.380
+TNS   : -0.443
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'audioAdapter:aa0|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.076
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'aa0|Audio_Controller|Audio_Clock|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.785
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -10.273
+TNS   : -125.107
+
+Type  : Fast 1100mV 0C Model Setup 'RateDivider:rd0|counter[0]'
+Slack : -3.216
+TNS   : -11177.516
+
+Type  : Fast 1100mV 0C Model Setup 'audioAdapter:aa0|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.897
+TNS   : -43.011
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[3]'
+Slack : -0.141
+TNS   : -0.141
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[2]'
+Slack : -0.133
+TNS   : -0.133
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[1]'
+Slack : -0.113
+TNS   : -0.113
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[3]'
+Slack : -0.137
+TNS   : -0.137
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[2]'
+Slack : -0.121
+TNS   : -0.121
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[1]'
+Slack : -0.110
+TNS   : -0.110
+
+Type  : Fast 1100mV 0C Model Hold 'audioAdapter:aa0|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'RateDivider:rd0|counter[0]'
+Slack : 0.168
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'RateDivider:rd0|counter[0]'
+Slack : -2.174
+TNS   : -19030.089
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[2]'
+Slack : -0.482
+TNS   : -0.625
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[3]'
+Slack : -0.473
+TNS   : -0.608
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[1]'
+Slack : -0.412
+TNS   : -0.498
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'audioAdapter:aa0|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'aa0|Audio_Controller|Audio_Clock|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.780
+TNS   : 0.000
+
+------------------------------------------------------------

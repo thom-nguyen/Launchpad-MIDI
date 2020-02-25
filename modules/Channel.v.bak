@@ -1,0 +1,67 @@
+module Channel(input mode, input playEn, input clock, input[1:0] data, output[1:0] seqOut);
+	
+	parameter PLAYING = 0, RECORDING = 1;
+	
+	wire currentState;
+	
+	reg nextState;
+	initial nextState = PLAYING;
+	
+	always @(posedge mode) begin
+		case (currentState)
+			PLAYING:
+				nextState <= RECORDING;
+			RECORDING:
+				nextState <= PLAYING;
+		endcase
+	end
+		
+	assign currentState = nextState;
+	
+	reg[1:0] dataHold;
+	initial dataHold = 2'b0;
+	
+	always @(data) begin
+		dataHold = dataHold | data;
+	end
+	
+	reg[39:0] seq0, seq1;
+	initial seq0 = 40'b0;
+	initial seq1 = 40'b0;
+	
+	reg[1:0] seqOutHold;
+	initial seqOutHold = 2'b0;
+	
+	always @(posedge clock) begin
+		case (currentState)
+			PLAYING:
+			begin
+				if (playEn) begin
+					seqOutHold = {seq1[39], seq0[39]};
+					
+					seq0 = seq0 << 1;
+					seq1 = seq1 << 1;
+					
+					seq0[0] = seqOutHold[0];
+					seq1[0] = seqOutHold[1];
+				end
+				else begin
+					seqOutHold = 2'b0;
+				end
+
+			end
+			RECORDING:
+			begin
+				seq0 = seq0 << 1;
+				seq0 = seq0 + dataHold[0];
+				
+				seq1 = seq1 << 1;
+				seq1 = seq1 + dataHold[1];
+				
+				dataHold <= 2'b0;
+			end
+		endcase
+	end
+	
+	assign seqOut = seqOutHold;
+endmodule

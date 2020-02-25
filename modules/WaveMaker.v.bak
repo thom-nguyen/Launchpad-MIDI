@@ -1,0 +1,34 @@
+module WaveMaker(input enable, reset, clock, depth, output[14:0] address, output playing);
+	
+	parameter IDLE = 1'b0, PLAY = 1'b1;
+	
+	reg currentState, nextState;
+	initial currentState = IDLE;
+	
+	reg [14:0] nextAddress;
+	
+	always @ (posedge clock) begin
+			case (currentState)
+				IDLE: begin
+					if (enable)
+						nextState <= PLAY;
+					else
+						nextState <= IDLE;
+				end
+				PLAY: begin
+					if (reset || (address > depth)) begin
+						nextAddress <= 15'b0;
+						nextState <= IDLE;
+					end
+					else begin
+						nextAddress <= nextAddress + 15'b000000000000001;
+						nextState <= PLAY;
+					end
+				end
+			endcase
+		end
+	
+		assign playing = (currentState == PLAYING);
+		assign address = nextAddress;
+		
+endmodule

@@ -1,0 +1,25 @@
+module Channel(input mode, input clear, input playEn, input clock, input[1:0] data, output[1:0] seqOut);
+	
+	reg[39:0] seq0, seq1;
+	reg[1:0] seqOutHol;
+	
+	always @(posedge clock or clear) begin
+		if (clear) begin
+			seq0 <= 40'b1000000010000000100000001000000010000000;
+			seq1 <= 40'b0000100000001000000010000000100000001000;
+		end
+		if (playEn) begin
+		
+			seqOutHold <= {seq1[39], seq0[39]};
+					
+			seq0 <= {seq0[38:0], seqOutHold[0]};
+			seq1 <= {seq1[38:0], seqOutHold[1]};
+					
+		end
+		else begin
+			seqOutHold <= 2'b0;
+		end
+	end
+	
+	assign seqOut = seqOutHold;
+endmodule

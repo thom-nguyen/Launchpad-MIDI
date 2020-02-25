@@ -1,0 +1,5 @@
+module Enabler ( input btn, ch0, output enable);
+
+	assign enable = btn | ch0;
+
+endmodule

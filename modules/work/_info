@@ -1,0 +1,429 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/1T7/1T7Fall/ECE241- Digital Systems/final project/modules
+vChannel
+!s110 1511948055
+!i10b 1
+!s100 gPcHjb4@RzZCGnG@9]EMC2
+I_9X[@A1XPiRB48Zh1K0?O2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dH:/1T7/1T7Fall/ECE241- Digital Systems/final project/modules
+w1511948052
+8Channel.v
+FChannel.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1511948055.000000
+!s107 Channel.v|
+!s90 -reportprogress|300|Channel.v|
+!i113 1
+Z4 tCvgOpt 0
+n@channel
+vChannelHardCodePlay
+!s110 1511946156
+!i10b 1
+!s100 FSZ2fI4zCAB>J]E9O]Ykd1
+InaPTb8BVh;I<A5Z0A<ZlQ2
+R1
+R2
+w1511946152
+8ChannelHardCodePlay.v
+FChannelHardCodePlay.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1511946155.000000
+!s107 ChannelHardCodePlay.v|
+!s90 -reportprogress|300|ChannelHardCodePlay.v|
+!i113 1
+R4
+n@channel@hard@code@play
+vChannelSim
+!s110 1511848904
+!i10b 1
+!s100 fiXfPFFMbCbDDl[ZKDK7o0
+I>FV`4fi_zkl`JOIcL@K0P0
+R1
+R2
+w1511848896
+8ChannelSim.v
+FChannelSim.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1511848903.000000
+!s107 ChannelSim.v|
+!s90 -reportprogress|300|ChannelSim.v|
+!i113 1
+R4
+n@channel@sim
+vDivider
+!s110 1511367332
+!i10b 1
+!s100 G_G3]9?Ko:AJ[YZ`cQ=T13
+IR2o7@VGfFz6^S<2UL6]QY2
+R1
+dD:/1T7/1T7Fall/ECE241- Digital Systems/final project/modules
+w1511365530
+8Divider.v
+FDivider.v
+Z5 L0 40
+R3
+r1
+!s85 0
+31
+!s108 1511367332.000000
+!s107 Divider.v|
+!s90 -reportprogress|300|Divider.v|
+!i113 1
+R4
+n@divider
+vEnabler
+!s110 1511849352
+!i10b 1
+!s100 ?[hfCoK@h3d5hA8z:0f@13
+IPfFHmm?Yhfj2C?YYMNN4T1
+R1
+R2
+w1511674428
+8Enabler.v
+FEnabler.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1511849351.000000
+!s107 Enabler.v|
+!s90 -reportprogress|300|Enabler.v|
+!i113 1
+R4
+n@enabler
+vnewSim
+!s110 1511849357
+!i10b 1
+!s100 aA>i[XJ[4]aMeKWJ:<II40
+IBWGWz[??bmVl?bn_P=K5g3
+R1
+R2
+w1511847942
+8newSim.v
+FnewSim.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1511849355.000000
+!s107 newSim.v|
+!s90 -reportprogress|300|newSim.v|
+!i113 1
+R4
+nnew@sim
+vplaySound
+!s110 1511842262
+!i10b 1
+!s100 M]oQgcJb`R[:[J^DHnV:L1
+I=IX3L<_ejG5Pk:IJmlJbF1
+R1
+R2
+w1511842206
+Z6 8Simulation.v
+Z7 FSimulation.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1511842262.000000
+Z8 !s107 Simulation.v|
+Z9 !s90 -reportprogress|300|Simulation.v|
+!i113 1
+R4
+nplay@sound
+vRAM
+!s110 1511653994
+!i10b 1
+!s100 lCdVGbAdf1AY;1:`oZK?z3
+Ij2H5[^2Y;cI24JB02Czi81
+R1
+R2
+w1511653650
+8RAM.v
+FRAM.v
+R5
+R3
+r1
+!s85 0
+31
+!s108 1511653994.000000
+!s107 RAM.v|
+!s90 -reportprogress|300|RAM.v|
+!i113 1
+R4
+n@r@a@m
+vRAM0
+Z10 !s110 1511849353
+!i10b 1
+!s100 g]ak392ilQ1;zKMzTWbab2
+IgR0NGKCzKeH:e@mS0<3mI2
+R1
+R2
+w1511839246
+8RAM0.v
+FRAM0.v
+R5
+R3
+r1
+!s85 0
+31
+!s108 1511849352.000000
+!s107 RAM0.v|
+!s90 -reportprogress|300|RAM0.v|
+!i113 1
+R4
+n@r@a@m0
+vRAM1
+R10
+!i10b 1
+!s100 :mg]mnmGTMmLzL7_CVnm]0
+IIC2L;B57ohP;aSfo3jOen1
+R1
+R2
+w1511839266
+8RAM1.v
+FRAM1.v
+R5
+R3
+r1
+!s85 0
+31
+!s108 1511849353.000000
+!s107 RAM1.v|
+!s90 -reportprogress|300|RAM1.v|
+!i113 1
+R4
+n@r@a@m1
+vRAMDrumBass
+!s110 1511058607
+!i10b 1
+!s100 O:Xbj4MgW[2k8TEYQB75H3
+IHl4ccVKz7C7]fCTNk7@MO0
+R1
+R0
+w1511056074
+8RAMDrumBass.v
+FRAMDrumBass.v
+R5
+R3
+r1
+!s85 0
+31
+!s108 1511058606.000000
+!s107 RAMDrumBass.v|
+!s90 -reportprogress|300|RAMDrumBass.v|
+!i113 1
+R4
+n@r@a@m@drum@bass
+vramDrumBass
+!s110 1511045418
+!i10b 1
+!s100 ZZ16QIN`]<52nS0DN<[622
+I:26k4?6X2IV:``T`J393A2
+R1
+R0
+w1511042820
+8ramDrumBass.v
+FramDrumBass.v
+R5
+R3
+r1
+!s85 0
+31
+!s108 1511045417.000000
+!s107 ramDrumBass.v|
+!s90 -reportprogress|300|ramDrumBass.v|
+!i113 1
+R4
+nram@drum@bass
+vRAMDrumBassMIF
+!s110 1511052500
+!i10b 1
+!s100 L@2P?e5G53IT]Wfi9fKnk2
+Iin2X>:4VH98HoogRNlhkD3
+R1
+R0
+w1511052442
+8RAMDrumBassMIF.v
+FRAMDrumBassMIF.v
+R5
+R3
+r1
+!s85 0
+31
+!s108 1511052498.000000
+!s107 RAMDrumBassMIF.v|
+!s90 -reportprogress|300|RAMDrumBassMIF.v|
+!i113 1
+R4
+n@r@a@m@drum@bass@m@i@f
+vRAMnorden
+!s110 1511653993
+!i10b 1
+!s100 bnRX6mlN2QG8@68oN<UEX0
+IS<6[MWiJ]F5;=jg[TG8oz0
+R1
+R2
+w1511653198
+8RAMnorden.v
+FRAMnorden.v
+R5
+R3
+r1
+!s85 0
+31
+!s108 1511653993.000000
+!s107 RAMnorden.v|
+!s90 -reportprogress|300|RAMnorden.v|
+!i113 1
+R4
+n@r@a@mnorden
+vRAMtest
+!s110 1511048509
+!i10b 1
+!s100 b:CKFX82_FhP2VE;;RfPk0
+I]e[H>T409P:j`d6?UKOL91
+R1
+R0
+w1511047380
+8RAMtest.v
+FRAMtest.v
+R5
+R3
+r1
+!s85 0
+31
+!s108 1511048509.000000
+!s107 RAMtest.v|
+!s90 -reportprogress|300|RAMtest.v|
+!i113 1
+R4
+n@r@a@mtest
+vRateDivider
+!s110 1511309523
+!i10b 1
+!s100 1QB6k_3Fnm;GTDS=@24I@3
+I2@I9XAgQKmGI]?glWzD]c1
+R1
+R2
+w1511064514
+8RateDivider.v
+FRateDivider.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1511309522.000000
+!s107 RateDivider.v|
+!s90 -reportprogress|300|RateDivider.v|
+!i113 1
+R4
+n@rate@divider
+vSimulation
+!s110 1511849016
+!i10b 1
+!s100 _RQ7J<A51W3liBXPGd@3Z1
+I3m9nCkDh2=MFIEJIS4S2Y3
+R1
+R2
+w1511843036
+R6
+R7
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1511849016.000000
+R8
+R9
+!i113 1
+R4
+n@simulation
+vsimulation
+!s110 1511066600
+!i10b 1
+!s100 JTSl;V`A6Sz=[3zJm3RCZ3
+I7OjSi0@>SZgZ2gIihJ5ZE3
+R1
+R0
+w1511065552
+8simulation.v
+Fsimulation.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1511066600.000000
+!s107 simulation.v|
+!s90 -reportprogress|300|simulation.v|
+!i113 1
+R4
+vWaveAdder
+!s110 1511849350
+!i10b 1
+!s100 WzAOAZz_^QnSlDii1NY>e2
+IEi[VNEXH4izAF[Rf;DWza1
+R1
+R2
+w1511657560
+8WaveAdder.v
+FWaveAdder.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z11 !s108 1511849349.000000
+!s107 WaveAdder.v|
+!s90 -reportprogress|300|WaveAdder.v|
+!i113 1
+R4
+n@wave@adder
+vWaveMaker
+!s110 1511849349
+!i10b 1
+!s100 INaL<YbPoj[[UHIQGW7hS3
+IWFkm;oZcPRHf7V=>UDCRc2
+R1
+R2
+w1511574086
+8WaveMaker.v
+FWaveMaker.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 WaveMaker.v|
+!s90 -reportprogress|300|WaveMaker.v|
+!i113 1
+R4
+n@wave@maker

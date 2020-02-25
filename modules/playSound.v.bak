@@ -1,0 +1,65 @@
+//takes in info from module [1] and plays a sound hopefully
+
+module playSound(
+	
+	//inputs
+	//numSounds
+	KEY,
+	//GPIO
+	CLOCK_50
+	
+	//outputs
+	//none?
+	
+);
+
+
+input [3:0] KEY;
+input CLOCK_50;
+
+
+
+//OUTPUT AT 44.111 kHz
+//(WAV files parse at 16bit sample size and 44.111 kHz sample rate)
+
+assign rate = 11'b10001101100; 	// 44.111 kHz => 1 132
+wire rOut;
+wire [15:0] soundOut;
+wire [11:0] parser;
+
+
+assign soundOut = 16'b1111111111111111;
+assign parser = 12'b0;
+
+
+//make rate divider
+RateDivider rd0 ( .reset(~KEY[0]), .rate(rate), .clk(CLOCK_50), .out(rOut) );
+
+//enable is triggered by input.... for now use KEY[1]
+reg enable;
+always @ (negedge KEY[1]) 
+	enable = 1;
+
+
+//when rOut goes from 0 to 1 (posedge), parse next 16 bits of sound
+always @ (posedge rOut) begin
+
+	if (enable) begin
+		if ( parser == 12'b111111111111 || soundOut == 16'b0 ) begin
+			parser <= 12'b0;
+			enable = 0;
+		end
+		else
+			parser <= parser + 1;
+	end
+			
+end
+
+//SOUND SELECTOR MODULE....
+//HOW TO DETERMINE WHICH RAM TO ACCESS FOR WHEN THERE IS MORE THAN 1 SOUND?
+ramDrumBass rdb0( .address(parser), .clock(CLOCK_50), .q(soundOut) );
+
+audioAdapter aa0 ( .resetn(KEY[0]), .soundOut(soundOut) );
+
+
+endmodule

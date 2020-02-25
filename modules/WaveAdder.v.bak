@@ -1,0 +1,21 @@
+module WaveAdder (input[4:0] playing, input[15:0] wave1, input[15:0] wave2, input[15:0] wave3, input [15:0] wave4, output[15:0] resultant);
+	
+	wire[15:0] sum;
+	assign sum = wave1 + wave2 + wave3 + wave4;
+	
+	reg[2:0] numWaves;
+	
+	always @(*)	begin
+		numWaves = 2b'0;
+		for (int i = 0; i < 4; i++) begin
+			numWaves += playing[i];
+		end
+	end
+			
+	WaveDivider waveDivider(.wave(sum), .factor(numWaves), .resultant(resultant));
+endmodule
+	
+
+	
+			
+	
